@@ -1,0 +1,21 @@
+Variabel yang dibutuhkan:
+pjg	= panjang dalam cm
+m	= meter
+cm	= centimeter
+
+Cara penulisan deklarasi:
+int pjg,m,cm;
+
+KESIMPULAN:
+Kesimpulan pada kasus ini yaitu sebelum sebuah variabel digunakan 
+dalam program maka harus dideklarasikan yang maknanya adalah memesan 
+tempat pada memori. Banyaknya tempat yang dipesan bergantung pada 
+tipe data apa yang digunakan oleh variabel tersebut.
+Penyelesaian nya yaitu dengan menuliskan deklarasi dengan ketentuan:
+	1. Karakter pertama berupa huruf (A-Z) atau (a-z) atau underscore (_)
+	2. Tidak boleh mengandung simbol khusus kecuali underscore ( _)
+	3. Nama variabel tidak boleh sama dengan kata kunci C++
+	4. Nama variabel boleh terdiri dari kata kunci C++ yang digabungdengan kata lain .
+	5. Huruf besar dan kecil dari nama variabel akan dibedakan oleh bahasa C++
+	6. Nama variabel tidak boleh menggunakan operator aritmetika (+ - / * %)
+	7. Nama variabel tidak boleh mengandung spasi
