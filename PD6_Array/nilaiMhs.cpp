@@ -32,9 +32,9 @@ int main(){
     cout<<"----------- DAFTAR NILAI LULUS -----------\n";
     for(int i=1 ; i<=n ; i++){
         if(nilai[i]>50){
-            cout<<"nama  : "<<nama [i]<<endl;
-            cout<<"nilai : "<<nilai[i]<<endl;
-            cout<<"Selamat ya "<<nama[i]<<" anda dinyatakan LULUS\n";
+            cout<<" Nama  : "<<nama [i]<<endl;
+            cout<<" Nilai : "<<nilai[i]<<endl;
+            cout<<" Selamat ya "<<nama[i]<<" anda dinyatakan LULUS\n";
             cout<<endl;
         }
     }
@@ -42,9 +42,9 @@ int main(){
     cout<<"-------- DAFTAR NILAI TIDAK LULUS --------\n";
     for(int i=1 ; i<=n ; i++){
         if(nilai[i]<=50){
-            cout<<"nama  : "<<nama [i]<<endl;
-            cout<<"nilai : "<<nilai[i]<<endl;
-            cout<<"Tetap semangat ya "<<nama[i]<<" anda dinyatakan TIDAK LULUS\n";
+            cout<<" Nama  : "<<nama [i]<<endl;
+            cout<<" Nilai : "<<nilai[i]<<endl;
+            cout<<" Tetap semangat ya "<<nama[i]<<" anda dinyatakan TIDAK LULUS\n";
             cout<<endl;
 
         }
