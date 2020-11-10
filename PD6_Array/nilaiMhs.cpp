@@ -13,35 +13,40 @@ int main(){
     int n;
     cout<<"[+] Jumlah mahasiswa : ";    //input total mhs
     cin>> n;
-    string nama[n];                 //array nama
-    float nilai[n];                 //array nilai
-    for(int i=0 ; i<n ; i++){       //looping input nama & nilai
+    string nama[n+1];                 //array nama
+    float nilai[n+1];                 //array nilai
+    for(int i=1 ; i<=n ; i++){       //looping input nama & nilai
         cout<<endl;
-        cout<<"[+] Nama depan  : ";
+        cout<<"["<<i<<"] Nama depan  : ";
         cin>>nama [i];
         cout<<"[~] Nilai       : ";
         cin>> nilai[i];
         if(nilai[i]>50)             //NILAI LULUS = diatas 50
-            cout<< "    Predikat - lulus";
+            cout<< "    Dinyatakan lulus";
         else                        //kurang dari sama dengan 50 = TIDAK LULUS
-            cout<< "    Predikat - tidak lulus";
+            cout<< "    Dinyatakan tidak lulus";
         cout<<endl;
     }
     cout<<endl;
 
     cout<<"----------- DAFTAR NILAI LULUS -----------\n";
-    for(int i=0 ; i<n ; i++){
+    for(int i=1 ; i<=n ; i++){
         if(nilai[i]>50){
             cout<<"nama  : "<<nama [i]<<endl;
-            cout<<"nilai : "<<nilai[i]<<endl<<endl;
+            cout<<"nilai : "<<nilai[i]<<endl;
+            cout<<"Selamat ya "<<nama[i]<<" anda dinyatakan LULUS\n";
+            cout<<endl;
         }
     }
 
     cout<<"-------- DAFTAR NILAI TIDAK LULUS --------\n";
-    for(int i=0 ; i<n ; i++){
+    for(int i=1 ; i<=n ; i++){
         if(nilai[i]<=50){
             cout<<"nama  : "<<nama [i]<<endl;
-            cout<<"nilai : "<<nilai[i]<<endl<<endl;
+            cout<<"nilai : "<<nilai[i]<<endl;
+            cout<<"Tetap semangat ya "<<nama[i]<<" anda dinyatakan TIDAK LULUS\n";
+            cout<<endl;
+
         }
     }
 
