@@ -1,6 +1,11 @@
-Step2 nya:
+Step 1 :
+1. Install & update opencv cmd dg cara >> python -m pip install --upgrade opencv-contrib-python , tunggu sampai proses download selesai, pastikan ada jaringan/wifi
+2. Jika ada warning pip version maka lalukan Install & update pip cmd dg cara >> python -m pip install --upgrade pip
+3. Install & update pillow cmd dg cara >> python -m pip install --Pillow
+
+Step 2 :
 1. Buatlah folder directory dengan nama "dataset", jalankan 01_face_dataset , masukkan user id number mulai dari 0,1,2 dst, lalu kamera akan aktif dan memotret grey bbrp kali
-2. Buatlah folder directory dengan nama "trainer", jalankan 02_face_training, data wajah akan di training oleh machine learning untuk dikenali sebagai "nama" yg anda masukkan di    03_face_recognition
-3. jalankan 03_face_recognition, pastikan anda menamai "nama0, nama1,dst" sesuai dg face yg dipotret. 
+2. Buatlah folder directory dengan nama "trainer", jalankan 02_face_training, data wajah akan di training oleh machine learning untuk dikenali sebagai "nama" yg anda masukkan di      03_face_recognition
+3. jalankan 03_face_recognition, pastikan anda menamai "nama0, nama1,dst" sesuai dg face yg dipotret
 4. webcam akan otomatis dapat mendeteksi wajah siapa2 saja yang telah di daftarkan ke dalam dace_dataset
 
